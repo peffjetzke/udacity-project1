@@ -1,0 +1,36 @@
+/*Blog page specific CSS*/
+
+.blog-cont{
+    grid-area: blog;
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.post-head{
+    color: blue;
+    text-align: center;
+}
+
+
+.blog-photo{
+    width: 30%;
+    background-size: cover;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+
+.author{
+    grid-area: auth;
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.author-avatar{
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}

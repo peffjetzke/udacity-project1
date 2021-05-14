@@ -1,0 +1,19 @@
+1 - Separate your HTML and CSS. GOOD
+2 - Import three CSS files > Total 4 CSS files. 1 main and 3 imported into main. GOOD
+3 - Organize your project files. GOOD
+4 - Create a Correct user flow.  GOOD
+5 - Add custom layout. GOOD
+6 - Add styling and colors. GOOD
+7 - Add the image captions. GOOD
+8 - Add two pages. GOOD
+9 - Add the required page parts. GOOD
+10 - Add at least 2 flex to your CSS.
+11 - Add at least 2 grid to your CSS. GOOD
+12 - Add responsiveness to your blog post.
+13 - Use semantic tags. GOOD
+14 - Add social buttons/tags GOOD
+15 - Add about the author to blog post GOOD
+
+Reminders
+Class/ID naming conventions?
+Design doesn't matter. Hit the rubrik points.

@@ -1,0 +1,73 @@
+/* Overall page styling*/
+
+/*CSS Imports. Per Udacity Mentor help page, using Font Awesome was ok for socials */
+@import url(blog.css);
+@import url(card_styles.css);
+@import url(mobile.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+body{
+    color: #fff;
+}
+
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    grid-area: head;
+    background-color: grey;
+}
+
+
+.sidebar{
+    grid-area: sidebar;
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+}
+
+
+.blog-item{
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 0px 30px 0px 0px;
+}
+
+
+.footer{
+    grid-area: footer;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+}
+
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+
+.social li{
+    margin: 0 10px;
+}
+
+
+.social a{
+    text-decoration: none;
+    color: black;
+}
