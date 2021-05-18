@@ -51,7 +51,7 @@
 
 
 /*Medium screen media query*/
-@media(min-width:551px) AND (max-width: 900px){
+@media(min-width:551px) AND (max-width: 1000px){
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -79,8 +79,9 @@
     
         grid-template-areas: 
         "head head"
-        "sidebar blog"
-        "sidebar auth"
+        "sidebar sidebar"
+        "blog blog"
+        "auth auth"
         "footer footer";
     }
 
@@ -109,7 +110,7 @@
 }
 
 /* Larger screen media query */
-@media(min-width:901px) {
+@media(min-width:1001px) {
     .container{
         display: grid;
         grid-auto-columns: 1fr 2.5fr 2.5fr 2.5fr;
