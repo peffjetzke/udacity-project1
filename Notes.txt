@@ -1,0 +1,29 @@
+API Key: ffab8f05757d9a66bbfd23862102852d
+
+--App Flow--
+User enters data
+Submit-> formHandler
+formHandler should get the text from the formHandler
+->store input
+POST to server using stored input using fetch functions
+-> GET to MeaningCloud API
+-> Send response to Client
+-> Update UI from response using innerHTML
+
+List items in html
+model
+score
+agreement
+subjectivity
+confidence
+irony
+
+
+call UpdateUI
+use res.item to populate innerHTML
+
+To Do:
+jest doesn't work?
+import css to index.js
+Need CSS loaders
+Service Worker
